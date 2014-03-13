@@ -1,0 +1,17 @@
+extends layout
+
+block content
+    h1 Users
+
+    a(href='/signup') Signup
+    br
+    a(href='/login') Login
+    
+    if users.length
+        p Here are the current users:
+        ul.users
+            for user in users
+                li.user
+                    a(href='/users/#{user.id}') #{user.name}
+    else
+        p There are no users currently.
