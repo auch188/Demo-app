@@ -5,6 +5,8 @@ This is a template [Node.js][] + [Neo4j][] app, using the
 
 A demo tries to integrate node.sj with Neo4j as well as Passport.js
 
+Code is partially working at the moment
+
 ## Installation
 
 ```
